@@ -1,30 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     {{>headerlinks}}
 </head>
-<body>
-  {{>navbar}}
-    <div class="container-fluid main_header">
-      <div class="row">
-          <div class="col-md-10 col-12 mx-auto">
-<div class="row">
-    <div class="col-md-6 col-12 main_header_right align-items-center"> 
-        <figure>
-            <img src="images/boyy.png" class="img-fluid" title="Abdul">
-        </figure> 
-        </div>
-  <div class="col-md-6 col-12 main_header_left">
-    <p>Welcome to weather App</p>
-    <h1>I am a <span class="text_clr"> MERN Stack <br>Developer </span></h1>
-    <a href="https://www.linkedin.com/in/abdul-rahman-4892a5221" target="_"><button>About me</button></a>
-  </div>
 
-  </div>
-</div>
+<body>
+    {{>navbar}}
+
+    <!-- main header  -->
+    <div class="main_header">
+
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-6 col-12 main_header_right">
+                        <figure>
+                            <img src="images/boyy.png" alt="Abdul" title="AR Tech" class="img-fluid">
+                        </figure>
+
+                    </div>
+
+                    <div class="col-md-6 col-12 main_header_left">
+                        <p>Welcome to Weather App</p>
+                        <h1>I am a <span class="txt_clr">Mern Stack Developer</span> and freelancer</h1>
+                        <a href="https://www.linkedin.com/in/abdul-rahman-4892a5221" target="_"><button>About Me</button></a>
+                    </div>
+                </div>
+
             </div>
-            </div>
-            </div>
-                {{>footer}}
+        </div>
+
+    </div>
+
+     {{>footer}}
 </body>
+
 </html>

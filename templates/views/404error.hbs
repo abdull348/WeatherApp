@@ -1,28 +1,35 @@
-<!DOCTYPE html>
+
+    <!DOCTYPE html>
 <html lang="en">
+
 <head>
     {{>headerlinks}}
 </head>
-<body>
-  {{>navbar}}
-    <div class="container-fluid main_header">
-      <div class="row">
-          <div class="col-md-10 col-12 mx-auto">
-<div class="row">
-    <div class="col-md-12 col-12 main_header_left align-items-center"> 
-        <figure class="errimg">
-            <img src="images/error.png" class="img-fluid" title="Error">
-        </figure>
-    <p>Welcome to AR Tech</p>
-    <h1>{{errorMsg}}</h1>
-    <a href="/"><button>Go Back</button></a>
-  </div>
 
-  </div>
-</div>
+<body>
+    {{>navbar}}
+
+    <!-- main header  -->
+    <div class="main_header">
+
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto ">
+                <div class=" main_header_left align-items-center">
+                    <figure class="errimg">
+                        <img src="images/error.png" alt="Abdul" title="Error" class="img-fluid">
+                    </figure>
+                    <p>Welcome to AR Tech</p>
+                    <h1>{{errorMsg}}</h1>
+                    <a href="/"><button>Go Back</button></a>
+                </div>
             </div>
-            </div>
-            </div>
-                {{>footer}}
+
+        </div>
+    </div>
+
+    </div>
+
+   {{>footer}}
 </body>
+
 </html>
